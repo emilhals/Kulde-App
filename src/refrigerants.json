@@ -3,20 +3,20 @@
     "name": "R-134A",
     "gwp": "1430",
     "class": "HFC",
-    "usage", "Kjøling"
-  }
+    "usage": "Kjøling"
+  },
 
   {
     "name": "R-290",
     "gwp": "4",
     "class": "HFC",
-    "usage", "Kjøling, ventilasjon"
-  }
+    "usage": "Kjøling, ventilasjon"
+  },
 
   {
     "name": "CO2",
     "gwp": "1",
     "class": "Naturlig",
-    "usage", "Kjøling, frys"
+    "usage": "Kjøling, frys"
   }
 ]
