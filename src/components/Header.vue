@@ -47,8 +47,8 @@
         </Popover>
 
         <router-link to="/troubleshooter" class="text-sm font-semibold leading-6 text-gray-900">Feilsøker</router-link>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
-        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+        <router-link to="/quiz" class="text-sm font-semibold leading-6 text-gray-900">Quiz</router-link>
+        <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Teori</a>
       </PopoverGroup>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
@@ -120,8 +120,8 @@ import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/vue/20/so
 const products = [
 
 
-  { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
-  { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
+  { name: 'Kuldemedier', description: 'Få en oversikt over ulike kuldemedier', href: '/kuldemedier', icon: ChartPieIcon },
+  { name: 'Quiz', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },
   { name: 'Security', description: 'Your customers’ data will be safe and secure', href: '#', icon: FingerPrintIcon },
   { name: 'Integrations', description: 'Connect with third-party tools', href: '#', icon: SquaresPlusIcon },
   { name: 'Automations', description: 'Build strategic funnels that will convert', href: '#', icon: ArrowPathIcon },

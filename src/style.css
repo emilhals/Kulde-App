@@ -5,6 +5,9 @@
 html, body {
   color: #2D2D34;
 }
+.router-link-active {
+  color: #E75A7C;
+}
 
 a:hover {
   color: #E75A7C;

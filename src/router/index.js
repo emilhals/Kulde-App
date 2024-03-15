@@ -14,6 +14,13 @@ const router = createRouter({
       name: 'troubleshooter',
       component: () => import('../views/TroubleshooterView.vue')
     },
+
+
+    {
+      path: '/kuldemedier',
+      name: 'refrigeration',
+      component: () => import('../views/RefrigerationView.vue')
+    },
   ],
 })
 
